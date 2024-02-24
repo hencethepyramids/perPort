@@ -1,0 +1,41 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  
+  .App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem;
+  }
+  
+  .container {
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .section {
+    margin: 2rem 0;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  
+  p {
+    margin: 0;
+    margin-bottom: 1rem;
+  }
+  
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
